@@ -29,7 +29,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_ami_mapping"></a> [ami\_mapping](#input\_ami\_mapping) | AMI mapping based on workspace | `map(string)` | <pre>{<br>  "dev": "ami-0515eb9fe6701d598",<br>  "uat": "ami-06aa9ad211aebe4c8"<br>}</pre> | no |
+| <a name="input_github_agent_ami"></a> [github\_agent\_ami](#input\_github\_agent\_ami) | GitHub agent AMI based on workspace | `map(string)` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | Region where to build infrastructure | `string` | n/a | yes |
 | <a name="input_team"></a> [team](#input\_team) | Name of the team | `string` | n/a | yes |
 
